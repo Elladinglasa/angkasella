@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Hi! What's your mobile number?"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="34.0dp"
+        android:layout_marginLeft="28dp" 
+    />
+
+    <TextView
+        android:text="With a valid number, you can access rides, deliveries, and other services"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="13sp"
+        android:textColor="#28406C"
+        android:layout_marginTop="18.0dp"
+        android:layout_marginLeft="28.0dp"
+        android:textStyle="normal" 
+        
+
+    />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.0dp">
+        <ImageView
+            android:src="drawable/ic_menu_gallery"
+            android:layout_width="220dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView1"
+            android:layout_marginLeft="142.5dp"
+            android:background="@drawable/mobile"
+            android:layout_marginTop="39.5dp" />
+        <ImageView
+            android:src="drawable/ic_menu_gallery"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="27.0dp"
+            android:background="@drawable/flag"
+            android:layout_marginTop="39.5dp" />
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="245.5dp">
+
+        <!-- Text View -->
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We also use your number to allow 
+customers and customer service to 
+contact you about bookings. "
+            android:textSize="13sp"
+            android:textColor="#28406C"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="31.0dp" />
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:layout_marginLeft="24.0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
